@@ -15,7 +15,7 @@ const Footer = () => {
             </svg>
           </a>
           <span className="mb-3 mb-md-0 text-body-secondary">
-            © 2024 www.myntra.com. All rights reserved.
+            © {new Date().getFullYear()} www.myntra.com. All rights reserved.
           </span>
         </div>
 
